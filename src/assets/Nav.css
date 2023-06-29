@@ -1,0 +1,158 @@
+.nav{
+position: fixed;
+width: 100%;
+height: 90px;
+align-items: center;
+justify-content: space-between;
+display:flex;
+justify-content:center;
+padding:1rem;
+
+gap: 290px;
+box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+ display: flex;    
+ align-items: center;
+ font-size: 15px;
+ color: rgb(197, 123, 210);
+
+}
+.links{
+    display: flex;
+    font-size: 23px;
+    gap: 2rem;
+}
+.link{
+    text-decoration: none;
+    color: rgb(197, 123, 210) ;
+
+}
+.link:hover{
+      color: rgb(239, 152, 167);
+}
+.hambur{
+    display: none;
+}
+@media only screen and (max-width:650px) {
+      .hambur{
+      display: block;
+      }
+     .nav{
+        align-items: center;
+        justify-content: center;
+        gap: 120px;
+     }
+      .links{
+        position: absolute;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        top: 0;
+        left: -100%;
+        text-align: center;
+        width: 100%;
+        height: 90vh;
+        transition: 0.3s;
+        z-index: -1;
+        background-color: #fff;
+      }
+      .logo{
+   margin-left: -30px;
+  
+      }
+      .link{
+        display: flex;
+      }
+.links.active{
+    left:0 ;
+}
+
+.enter-home{
+    flex-direction: column-reverse;
+}
+ .gift img {
+    width:360px;
+}
+.gift{
+    margin-right: 220px;
+}
+.enter-home{
+    width: 100%;
+  
+}
+.enter-home .content h2{
+    font-size: 35px;
+
+}
+.enter-home .content p{
+    inline-size: 350px;
+    font-size: 20px;
+}
+.about .cnt-about h1{
+    margin-top: 50px;
+    letter-spacing: 10px;
+    font-size: 30px;
+}
+
+.about{
+    width: 100%;
+}
+.about-us .aboutAll{
+    width: 150px;
+    margin-top:5px;
+}
+.about-us .aboutImage img{
+    width:150px;
+}
+.aboutAll .aboutsecond p{
+    font-size: 12px;
+    inline-size: 250px;
+}
+.home .feauters #h11{
+    margin-top: 780px;
+    font-size: 30px;
+    letter-spacing: 10px;
+    }
+    .feauters #h11{
+        font-size: 30px;
+        letter-spacing: 10px;
+        }
+    .feauters .card p{
+     font-size: 13px;
+    }
+   .home #prich1{
+    margin-top: 3900px;
+    font-size: 30px;
+    letter-spacing: 10px; 
+    }
+  .price-box{
+    width: 320px;
+   }
+ .price-box .priceAll h1{
+    color:rgb(105, 26, 119) ;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.contact #contact-h4{
+    font-size: 30px;
+    letter-spacing:10px ;
+}
+ .contact {
+     margin-top: 2280px;
+ } 
+ .contact .contact-form{
+    flex-direction: column;
+ }
+ .contact-form .contactImg img{
+    width: 300px;
+ }
+.contact-form form{
+   padding: 10px;
+} 
+
+}   

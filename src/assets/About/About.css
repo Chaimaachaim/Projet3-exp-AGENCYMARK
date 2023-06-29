@@ -1,0 +1,51 @@
+body{
+    margin:0 ;
+    padding: 0;
+}
+.about{
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+   gap: 12px;
+}
+.cnt-about h1{
+    font-size: 60px; 
+    text-transform: uppercase;
+    color: rgb(105, 26, 119);
+    letter-spacing: 20px;
+}
+ .about-us{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 250px;
+    flex-wrap: wrap;
+}
+.aboutAll{
+    flex: 1 1 0rem;
+    background: #fff;
+    margin: 50px;
+    width:300px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+   background-color: rgb(240, 240, 240);
+    border: solid transparent;
+    border-radius: 25px;
+    text-align: center;
+}
+.aboutImage img{
+    width:300px;
+    border-radius: 20px;
+}
+.aboutsecond h2{
+    font-size:20px;
+    text-align: center;
+    color: rgb(105, 26, 119);
+    padding-top: 1rem;
+    letter-spacing: 2PX;
+}
+.aboutsecond p{
+    font-size: 15px;
+    inline-size: 300px;
+}

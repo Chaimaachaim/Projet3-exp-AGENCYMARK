@@ -1,0 +1,72 @@
+.contact{
+    height: 100vh;
+    width: 100%;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap
+}
+.contact h4{
+    margin-left: 50px;
+    font-size: 60px; 
+    text-transform: uppercase;
+    color: rgb(105, 26, 119);
+    letter-spacing: 17px;
+   text-align: center;
+}
+.contact-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.contactImg img{
+width: 600px;
+border-radius:15px;
+}
+.contact-form .fom{
+height: 460px;
+border-radius: 10px;
+overflow: hidden;
+position: relative;
+}
+ form{
+    max-width: 550px;
+    width: 90%;
+    background: white;
+    margin: 17vh;   
+    padding: 40px;
+    border-radius: 3px;
+    box-sizing: border-box; 
+}
+label{
+    font-size: 19px;
+    display: block;
+    margin: 20px 0;
+    color: rgb(105, 26, 119);
+}
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    resize:none;
+    border: none;
+    border-bottom: 1px solid #D3D3D3;
+}
+.btn33{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: .5rem 3rem;
+    border-radius: 13px;
+    border: none;
+    color: rgb(105, 26, 119);
+    font-size: 1.2rem;
+    cursor: pointer;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    transition: all .2s;
+}
+.btn33:hover{
+    transform: scale(1.1);
+}

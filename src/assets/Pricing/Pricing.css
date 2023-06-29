@@ -1,0 +1,63 @@
+.Pricing{
+    height: 150vh;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#prich1{
+    margin-top:20px;
+    font-size: 60px; 
+    text-transform: uppercase;
+    color: rgb(105, 26, 119);
+    letter-spacing: 20px; 
+}
+.price-box{
+    display: flex;
+  gap: 90px;
+  flex-wrap: wrap;
+
+}
+.priceAll:hover{
+    background-color: rgb(105, 26, 119);
+    color: black;
+    border-radius: 25px;
+}
+.priceAll{
+    flex: 1 1 0rem;
+     width: 350px;
+     background: #fff;
+     margin-top: 10px;
+     box-shadow: 1px 1px 20px rgba(0,0,0,0.5);
+     text-align: center;
+     transition: 0.9s;
+     border-radius: 15px;
+}
+.priceAll h1{
+    color:rgb(105, 26, 119) ;
+    font-size: 38px;
+    text-transform: uppercase;
+}
+.price-text  {
+    width: 120px;
+    height: 120px;
+   border-radius: 50%;
+   border: 2px solid pink ;
+   margin: 5% auto 0 auto;
+   text-align:center;
+   color: rgb(105, 26, 119);
+   font-size: 26px;
+}
+.price-text {
+   color: rgb(239, 152, 167);
+}
+.price-text2 h4{
+    font-size: 18px;
+    color: rgb(105, 26, 119);
+    line-height: 3;
+    align-items: center;
+}
+.price-text2 h4 {
+    color: rgb(239, 152, 167);
+ }
